@@ -1,6 +1,5 @@
 package io.github.tiagorgt.vertx.api.repository;
 
-import com.sun.deploy.util.StringUtils;
 import io.github.tiagorgt.vertx.api.entity.User;
 import io.netty.util.internal.StringUtil;
 import io.vertx.core.json.JsonObject;
@@ -9,7 +8,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
-import javax.persistence.criteria.CriteriaBuilder;
 import java.util.List;
 
 /**
